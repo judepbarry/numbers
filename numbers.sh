@@ -1,5 +1,9 @@
+#!/bin/bash
+# numbers.sh
+# Jude Barry
+
 echo -n "Please enter a positive integer: "
-read num
+read -r num
 
 for ((i=1; i<=num; i++))
 do
